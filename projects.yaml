@@ -3,9 +3,27 @@ configuration:
   markdown_footer_file: "config/footer.md"
 
 categories:
-  # - category: "data-engineering"
-  #   title: "Machine Learning & Data Engineering"
-  #   subtitle: "Best-of lists about machine learning, data engieering, data science, or other topics related to big data."
+  - category: "ml-frameworks"
+    title: "Machine Learning Frameworks"
+    subtitle: "General-purpose machine learning and deep learning frameworks."
+  - category: "nlp"
+    title: "Text Data & NLP"
+    subtitle: "Libraries for processing, cleaning, manipulating, and analyzing text data as well as for diverse NLP tasks."
+  - category: "image"
+    title: "Image Data"
+    subtitle: "Libraries for image & video processing, manipulation, and augmentation as well as libraries for computer vision."
+  - category: "data-loading"
+    title: "Data Loading & Extraction"
+    subtitle: "Libraries for loading, collecting, and extracting data from a variety of data sources and formats."
+  - category: "ml-experiments"
+    title: "Workflow & Experiment Tracking"
+    subtitle: "Libraries to organize, track, and visualize machine learning experiments."
+  - category: "hyperopt"
+    title: "Hyperparameter Optimization & AutoML"
+    subtitle: "Libraries for hyperparameter optimization, automl and neural architecture search."
+  - category: "probabilistics"
+    title: "Probabilistics & Statistics"
+    subtitle: "Libraries providing capabilities for probabilistic programming/reasoning, bayesian inference, gaussian processes, or statistics."
 
 labels:
   # - label: "python"
@@ -13,7 +31,271 @@ labels:
   #   description: "Best-of list with Python projects"
 
 projects:
-  # - name: best-of-ml-python
-  #   github_id: ml-tooling/best-of-ml-python
-  #   labels: ["python"]
-  #   category: "data-engineering"
+  - name: Flux.jl
+    github_id: FluxML/Flux.jl
+    category: "ml-frameworks"
+  - name: Merlin.jl
+    github_id: hshindo/Merlin.jl
+    category: "ml-frameworks"
+  - name: Knet.jl
+    github_id: denizyuret/Knet.jl
+    category: "ml-frameworks"
+  - name: lathe
+    github_id: bhattlab/lathe
+    category: "ml-frameworks"
+  - name: MLBase.jl
+    github_id: JuliaStats/MLBase.jl
+    category: "ml-frameworks"
+  - name: ScikitLearn.jl
+    github_id: cstjean/ScikitLearn.jl
+    category: "ml-frameworks"
+  - name: TensorFlow.jl
+    github_id: malmaud/TensorFlow.jl
+    category: "ml-frameworks"
+  - name: Mocha.jl
+    github_id: pluskid/Mocha.jl
+    category: "ml-frameworks"
+  - name: TextAnalysis.jl
+    github_id: JuliaText/TextAnalysis.jl
+    category: "nlp"
+  - name: Transformers.jl
+    github_id: chengchingwen/Transformers.jl
+    category: "nlp"
+  - name: Zygote.jl
+    github_id: FluxML/Zygote.jl
+    category: "ml-frameworks"
+  - name: BytePairEncoding.jl
+    github_id: chengchingwen/BytePairEncoding.jl
+    category: "nlp"
+  - name: AdaGram.jl
+    github_id: sbos/AdaGram.jl
+    category: "nlp"
+  - name: TopicModels.jl
+    github_id: slycoder/TopicModels.jl
+    category: "nlp"
+  - name: Turing.jl
+    github_id: TuringLang/Turing.jl
+    category: "ml-frameworks"
+  - name: MLJ.jl
+    github_id: alan-turing-institute/MLJ.jl
+    category: "ml-frameworks"
+  - name: ModelingToolkit.jl
+    github_id: SciML/ModelingToolkit.jl
+    category: "ml-frameworks"
+  - name: AutoMLPipeline.jl
+    github_id: IBM/AutoMLPipeline.jl
+    category: "ml-frameworks"
+  - name: TSML.jl
+    github_id: IBM/TSML.jl
+    category: "ml-frameworks"
+  - name: DecisionTree.jl
+    github_id: bensadeghi/DecisionTree.jl
+    category: "ml-frameworks"
+  - name: Enzyme.jl
+    github_id: wsmoses/Enzyme.jl
+    category: "ml-frameworks"
+  - name: Gen.jl
+    github_id: probcomp/Gen.jl
+    category: "ml-frameworks"
+  - name: Yao.jl
+    github_id: QuantumBFS/Yao.jl
+    category: "ml-frameworks"
+  - name: ScikitLearn.jl
+    github_id: cstjean/ScikitLearn.jl
+    category: "ml-frameworks"
+  - name: Stheno.jl
+    github_id: willtebbutt/Stheno.jl
+    category: "ml-frameworks"
+  - name: Metalhead.jl
+    github_id: FluxML/Metalhead.jl
+    category: "image"
+  - name: ArrayFire.jl
+    github_id: JuliaGPU/ArrayFire.jl
+    category: "ml-frameworks"
+  - name: Reinforce.jl
+    github_id: JuliaML/Reinforce.jl
+    category: "ml-frameworks"
+  - name: ReinforcementLearning.jl
+    github_id: JuliaReinforcementLearning/ReinforcementLearning.jl
+    category: "ml-frameworks"
+  - name: MLDatasets.jl
+    github_id: JuliaML/MLDatasets.jl
+    category: "data-loading"
+  - name: LossFunctions.jl
+    github_id: JuliaML/LossFunctions.jl
+    category: "ml-frameworks"
+  - name: OpenAIGym.jl
+    github_id: JuliaML/OpenAIGym.jl
+    category: "ml-frameworks"
+  - name: GeometricFlux.jl
+    github_id: yuehhua/GeometricFlux.jl
+    category: "ml-frameworks"
+  - name: AutoGrad.jl
+    github_id: denizyuret/AutoGrad.jl
+    category: "ml-frameworks"
+  - name: Augmentor.jl
+    github_id: Evizero/Augmentor.jl
+    category: "image"
+  - name: ADCME.jl
+    github_id: kailaix/ADCME.jl
+    category: "ml-frameworks"
+  - name: NNlib.jl
+    github_id: FluxML/NNlib.jl
+    category: "ml-frameworks"
+  - name: ForneyLab.jl
+    github_id: biaslab/ForneyLab.jl
+    category: "ml-frameworks"
+  - name: KernelFunctions.jl
+    github_id: JuliaGaussianProcesses/KernelFunctions.jl
+    category: "ml-frameworks"
+  - name: Yota.jl
+    github_id: dfdx/Yota.jl
+    category: "ml-frameworks"
+  - name: JuliaML/MLDataUtils.jl
+    github_id: JuliaML/MLDataUtils.jl
+    category: "data-loading"
+  - name: ONNX.jl
+    github_id: FluxML/ONNX.jl
+    category: "ml-frameworks"
+  - name: UMAP.jl
+    github_id: dillondaudert/UMAP.jl
+    category: "ml-frameworks"
+  - name: bat
+    github_id: bat/bat
+    category: "ml-frameworks"
+  - name: Mads.jl
+    github_id: madsjulia/Mads.jl
+    category: "ml-frameworks"
+  - name: TensorBoardLogger.jl
+    github_id: PhilipVinc/TensorBoardLogger.jl
+    category: "ml-experiments"
+  - name: JLBoost.jl
+    github_id: xiaodaigh/JLBoost.jl
+    category: "ml-frameworks"
+  - name: ReservoirComputing.jl
+    github_id: SciML/ReservoirComputing.jl
+    category: "ml-frameworks"
+  - name: OrdinaryDiffEq.jl
+    github_id: SciML/OrdinaryDiffEq.jl
+    category: "ml-frameworks"
+  - name: NeuralPDE.jl
+    github_id: SciML/NeuralPDE.jl
+    category: "ml-frameworks"
+  - name: ModelingToolkit.jl
+    github_id: SciML/ModelingToolkit.jl
+    category: "ml-frameworks"
+  - name: DiffEqBase.jl
+    github_id: SciML/DiffEqBase.jl
+    category: "ml-frameworks"
+  - name: DifferentialEquations.jl
+    github_id: SciML/DifferentialEquations.jl
+    category: "ml-frameworks"
+  - name: MLJBase.jl
+    github_id: alan-turing-institute/MLJBase.jl
+    category: "ml-frameworks"
+  - name: MLJTuning.jl
+    github_id: alan-turing-institute/MLJTuning.jl
+    category: "hyperopt"
+  - name: TimeSeriesClassification.jl
+    github_id: alan-turing-institute/TimeSeriesClassification.jl
+    category: "ml-frameworks"
+  - name: DiscriminantAnalysis.jl
+    github_id: trthatcher/DiscriminantAnalysis.jl
+    category: "ml-frameworks"
+  - name: Loess.jl
+    github_id: JuliaStats/Loess.jl
+    category: "ml-frameworks"
+  - name: MixedModels.jl
+    github_id: JuliaStats/MixedModels.jl
+    category: "ml-frameworks"
+  - name: Distances.jl
+    github_id: JuliaStats/Distances.jl
+    category: "ml-frameworks"
+  - name: DecisionTree.jl
+    github_id: bensadeghi/DecisionTree.jl
+    category: "ml-frameworks"
+  - name: Mamba.jl
+    github_id: brian-j-smith/Mamba.jl
+    category: "ml-frameworks"
+  - name: GLM.jl
+    github_id: JuliaStats/GLM.jl
+    category: "probabilistics"
+  - name: GaussianProcesses.jl
+    github_id: STOR-i/GaussianProcesses.jl
+    category: "probabilistics"
+  - name: GLMNet.jl
+    github_id: JuliaStats/GLMNet.jl
+    category: "probabilistics"
+  - name: Clustering.jl
+    github_id: JuliaStats/Clustering.jl
+    category: "ml-frameworks"
+  - name: KernelDensity.jl
+    github_id: JuliaStats/KernelDensity.jl
+    category: "probabilistics"
+  - name: MultivariateStats.jl
+    github_id: JuliaStats/MultivariateStats.jl
+    category: "probabilistics"
+  - name: NMF.jl
+    github_id: JuliaStats/NMF.jl
+    category: "ml-frameworks"
+  - name: XGBoost.jl
+    github_id: dmlc/XGBoost.jl
+    category: "ml-frameworks"
+  - name: ManifoldLearning.jl
+    github_id: wildart/ManifoldLearning.jl
+    category: "ml-frameworks"
+  - name: incubator-mxnet
+    github_id: apache/incubator-mxnet
+    category: "ml-frameworks"
+  - name: ROCAnalysis.jl
+    github_id: davidavdav/ROCAnalysis.jl
+    category: "ml-frameworks"
+  - name: GaussianMixtures.jl
+    github_id: davidavdav/GaussianMixtures.jl
+    category: "probabilistics"
+  - name: ScikitLearn.jl
+    github_id: cstjean/ScikitLearn.jl
+    category: "ml-frameworks"
+  - name: WordTokenizers.jl
+    github_id: JuliaText/WordTokenizers.jl
+    category: "nlp"
+  - name: TextModels.jl
+    github_id: JuliaText/TextModels.jl
+    category: "nlp"
+  - name: Word2Vec.jl
+    github_id: JuliaText/Word2Vec.jl
+    category: "nlp"
+  - name: Snowball.jl
+    github_id: JuliaText/Snowball.jl
+    category: "nlp"
+  - name: CorpusLoaders.jl
+    github_id: JuliaText/CorpusLoaders.jl
+    category: "data-loading"
+  - name: Embeddings.jl
+    github_id: JuliaText/Embeddings.jl
+    category: "nlp"
+  - name: Languages.jl
+    github_id: JuliaText/Languages.jl
+    category: "nlp"
+  - name: WordNet.jl
+    github_id: JuliaText/WordNet.jl
+    category: "nlp"
+  - name: ReadStat.jl
+    github_id: queryverse/ReadStat.jl
+    category: "probabilistics"
+  - name: HypothesisTests.jl
+    github_id: JuliaStats/HypothesisTests.jl
+    category: "probabilistics"
+  - name: DataFrames.jl
+    github_id: JuliaData/DataFrames.jl
+    category: "data-loading"
+  - name: Distributions.jl
+    github_id: JuliaStats/Distributions.jl
+    category: "probabilistics"
+  - name: Images.jl
+    github_id: JuliaImages/Images.jl
+    category: "image"
+  - name: DataDeps.jl
+    github_id: oxinabox/DataDeps.jl
+    category: "data-loading"
+    
