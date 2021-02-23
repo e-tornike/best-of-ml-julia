@@ -298,4 +298,6 @@ projects:
   - name: DataDeps.jl
     github_id: oxinabox/DataDeps.jl
     category: "data-loading"
-    
+  - name: Torch.jl
+    github_id: FluxML/Torch.jl
+    category: "ml-frameworks"
