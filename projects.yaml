@@ -24,6 +24,9 @@ categories:
   - category: "probabilistics"
     title: "Probabilistics & Statistics"
     subtitle: "Libraries providing capabilities for probabilistic programming/reasoning, bayesian inference, gaussian processes, or statistics."
+  - category: "interpretability"
+    title: "Model Interpretability"
+    subtitle: "Libraries to visualize, explain, debug, evaluate, and interpret machine learning models."
 
 labels:
   # - label: "python"
@@ -300,4 +303,55 @@ projects:
     category: "data-loading"
   - name: Torch.jl
     github_id: FluxML/Torch.jl
+    category: "ml-frameworks"
+  - name: ReinforcementLearning.jl
+    github_id: JuliaReinforcementLearning/ReinforcementLearning.jl
+    category: "rl"
+  - name: ReinforcementLearningZoo.jl
+    github_id: JuliaReinforcementLearning/ReinforcementLearningZoo.jl
+    category: "rl"
+  - name: DistributedReinforcementLearning.jl
+    github_id: JuliaReinforcementLearning/DistributedReinforcementLearning.jl
+    category: "rl"
+  - name: MLDataPattern.jl
+    github_id: JuliaML/MLDataPattern.jl
+    category: "data-loading"
+  - name: DataAugmentation.jl
+    github_id: lorenzoh/DataAugmentation.jl
+    category: "data-loading"
+  - name: FluxTraining.jl
+    github_id: lorenzoh/FluxTraining.jl
+    category: "ml-frameworks"
+  - name: FastAI.jl
+    github_id: FluxML/FastAI.jl
+    category: "ml-frameworks"
+  - name: cscherrer/SossMLJ.jl
+    github_id: cscherrer/SossMLJ.jl
+    category: "probabilistics"
+  - name: CausalInference.jl
+    github_id: mschauer/CausalInference.jl
+    category: "ml-frameworks"
+  - name: Fairness.jl
+    github_id: ashryaagr/Fairness.jl
+    category: "interpretability"
+  - name: Omega.jl
+    github_id: zenna/Omega.jl
+    category: "probabilistics"
+  - name: NeuralPDE.jl
+    github_id: SciML/NeuralPDE.jl
+    category: "ml-frameworks"
+  - name: DiffEqFlux.jl
+    github_id: SciML/DiffEqFlux.jl
+    category: "ml-frameworks"
+  - name: DiffEqParamEstim.jl
+    github_id: SciML/DiffEqParamEstim.jl
+    category: "ml-frameworks"
+  - name: DiffEqBayes.jl
+    github_id: SciML/DiffEqBayes.jl
+    category: "ml-frameworks"
+  - name: DFTK.jl/
+    github_id: JuliaMolSim/DFTK.jl/
+    category: "ml-frameworks"
+  - name: AtomicGraphNets.jl
+    github_id: aced-differentiate/AtomicGraphNets.jl
     category: "ml-frameworks"
