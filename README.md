@@ -10,24 +10,26 @@
 
 <p align="center">
     <a href="https://best-of.org" title="Best-of Badge"><img src="http://bit.ly/3o3EHNN"></a>
-    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-86-blue.svg?color=5ac4bf"></a>
+    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-100-blue.svg?color=5ac4bf"></a>
     <a href="#Contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
     <a href="https://github.com/e-tony/best-of-ml-julia/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/e-tony/best-of-ml-julia?color=green&label=updated"></a>
 </p>
 
-This curated list contains 86 awesome open-source projects with a total of 43K stars grouped into 7 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/e-tony/best-of-ml-julia/issues/new/choose), submit a [pull request](https://github.com/e-tony/best-of-ml-julia/pulls), or directly edit the [projects.yaml](https://github.com/e-tony/best-of-ml-julia/edit/main/projects.yaml). Contributions are very welcome!
+This curated list contains 100 awesome open-source projects with a total of 44K stars grouped into 8 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/e-tony/best-of-ml-julia/issues/new/choose), submit a [pull request](https://github.com/e-tony/best-of-ml-julia/pulls), or directly edit the [projects.yaml](https://github.com/e-tony/best-of-ml-julia/edit/main/projects.yaml). Contributions are very welcome!
 
 > 🧙‍♂️  Discover other [best-of lists](https://best-of.org) or [create your own](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
 
 ## Contents
 
-- [Machine Learning Frameworks](#machine-learning-frameworks) _55 projects_
+- [Machine Learning Frameworks](#machine-learning-frameworks) _63 projects_
 - [Text Data & NLP](#text-data--nlp) _12 projects_
 - [Image Data](#image-data) _3 projects_
-- [Data Loading & Extraction](#data-loading--extraction) _5 projects_
+- [Data Loading & Extraction](#data-loading--extraction) _7 projects_
 - [Workflow & Experiment Tracking](#workflow--experiment-tracking) _1 projects_
 - [Hyperparameter Optimization & AutoML](#hyperparameter-optimization--automl) _1 projects_
-- [Probabilistics & Statistics](#probabilistics--statistics) _9 projects_
+- [Probabilistics & Statistics](#probabilistics--statistics) _11 projects_
+- [Model Interpretability](#model-interpretability) _1 projects_
+- [Others](#others) _2 projects_
 
 ## Explanation
 - 🥇🥈🥉&nbsp; Combined project-quality score
@@ -53,9 +55,9 @@ This curated list contains 86 awesome open-source projects with a total of 43K s
 
 _General-purpose machine learning and deep learning frameworks._
 
-<details><summary><b><a href="https://github.com/apache/incubator-mxnet">incubator-mxnet</a></b> (🥇31 ·  ⭐ 19K · 📈) - Lightweight, Portable, Flexible Distributed/Mobile.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/incubator-mxnet">incubator-mxnet</a></b> (🥇31 ·  ⭐ 19K) - Lightweight, Portable, Flexible Distributed/Mobile Deep.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/apache/incubator-mxnet) (👨‍💻 950 · 🔀 6.4K · 📥 24K · 📦 1.9K · 📋 9.2K - 17% open · ⏱️ 06.03.2021):
+- [GitHub](https://github.com/apache/incubator-mxnet) (👨‍💻 950 · 🔀 6.4K · 📥 24K · 📦 1.9K · 📋 9.2K - 17% open · ⏱️ 15.03.2021):
 
 	```
 	git clone https://github.com/apache/incubator-mxnet
@@ -63,7 +65,7 @@ _General-purpose machine learning and deep learning frameworks._
 </details>
 <details><summary><b><a href="https://github.com/probcomp/Gen.jl">Gen.jl</a></b> (🥇19 ·  ⭐ 1.5K) - A general-purpose probabilistic programming system with programmable.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/probcomp/Gen.jl) (👨‍💻 26 · 🔀 130 · 📋 220 - 53% open · ⏱️ 18.02.2021):
+- [GitHub](https://github.com/probcomp/Gen.jl) (👨‍💻 26 · 🔀 130 · 📋 220 - 53% open · ⏱️ 13.03.2021):
 
 	```
 	git clone https://github.com/probcomp/Gen.jl
@@ -71,15 +73,23 @@ _General-purpose machine learning and deep learning frameworks._
 </details>
 <details><summary><b><a href="https://github.com/TuringLang/Turing.jl">Turing.jl</a></b> (🥇19 ·  ⭐ 1.1K) - Bayesian inference with probabilistic programming. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/TuringLang/Turing.jl) (👨‍💻 70 · 🔀 140 · 📋 780 - 18% open · ⏱️ 04.03.2021):
+- [GitHub](https://github.com/TuringLang/Turing.jl) (👨‍💻 70 · 🔀 140 · 📋 780 - 18% open · ⏱️ 11.03.2021):
 
 	```
 	git clone https://github.com/TuringLang/Turing.jl
 	```
 </details>
-<details><summary><b><a href="https://github.com/JuliaStats/MixedModels.jl">MixedModels.jl</a></b> (🥇17 ·  ⭐ 250) - A Julia package for fitting (statistical) mixed-effects models. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/SciML/DiffEqFlux.jl">DiffEqFlux.jl</a></b> (🥇17 ·  ⭐ 470 · ➕) - Universal neural differential equations with O(1) backprop,.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/JuliaStats/MixedModels.jl) (👨‍💻 23 · 🔀 36 · 📋 200 - 9% open · ⏱️ 04.03.2021):
+- [GitHub](https://github.com/SciML/DiffEqFlux.jl) (👨‍💻 49 · 🔀 91 · 📋 220 - 24% open · ⏱️ 13.03.2021):
+
+	```
+	git clone https://github.com/SciML/DiffEqFlux.jl
+	```
+</details>
+<details><summary><b><a href="https://github.com/JuliaStats/MixedModels.jl">MixedModels.jl</a></b> (🥇17 ·  ⭐ 260) - A Julia package for fitting (statistical) mixed-effects models. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/JuliaStats/MixedModels.jl) (👨‍💻 23 · 🔀 36 · 📋 200 - 9% open · ⏱️ 11.03.2021):
 
 	```
 	git clone https://github.com/JuliaStats/MixedModels.jl
@@ -87,7 +97,7 @@ _General-purpose machine learning and deep learning frameworks._
 </details>
 <details><summary><b><a href="https://github.com/IBM/AutoMLPipeline.jl">AutoMLPipeline.jl</a></b> (🥈15 ·  ⭐ 220) - A package that makes it trivial to create and evaluate.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/IBM/AutoMLPipeline.jl) (👨‍💻 4 · 🔀 19 · 📋 61 - 27% open · ⏱️ 11.02.2021):
+- [GitHub](https://github.com/IBM/AutoMLPipeline.jl) (👨‍💻 4 · 🔀 18 · 📋 61 - 27% open · ⏱️ 11.02.2021):
 
 	```
 	git clone https://github.com/IBM/AutoMLPipeline.jl
@@ -101,40 +111,57 @@ _General-purpose machine learning and deep learning frameworks._
 	git clone https://github.com/yuehhua/GeometricFlux.jl
 	```
 </details>
+<details><summary><b><a href="https://github.com/JuliaMolSim/DFTK.jl">DFTK.jl/</a></b> (🥈15 ·  ⭐ 140 · ➕) - Density-functional toolkit. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/JuliaMolSim/DFTK.jl) (🔀 24 · 📋 120 - 38% open · ⏱️ 13.03.2021):
+
+	```
+	git clone https://github.com/JuliaMolSim/DFTK.jl/
+	```
+</details>
 <details><summary><b><a href="https://github.com/kailaix/ADCME.jl">ADCME.jl</a></b> (🥈15 ·  ⭐ 100) - Automatic Differentiation Library for Computational and Mathematical.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/kailaix/ADCME.jl) (👨‍💻 4 · 🔀 28 · 📥 93 · 📋 33 - 33% open · ⏱️ 06.03.2021):
+- [GitHub](https://github.com/kailaix/ADCME.jl) (👨‍💻 4 · 🔀 29 · 📥 93 · 📋 34 - 35% open · ⏱️ 14.03.2021):
 
 	```
 	git clone https://github.com/kailaix/ADCME.jl
 	```
 </details>
-<details><summary>Show 48 hidden projects...</summary>
+<details><summary><b><a href="https://github.com/FluxML/FastAI.jl">FastAI.jl</a></b> (🥉10 ·  ⭐ 130 · ➕) - Repository of best practices for deep learning in Julia, inspired.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- <b><a href="https://github.com/FluxML/Flux.jl">Flux.jl</a></b> (🥇19 ·  ⭐ 2.8K) - Relax! Flux is the ML library that doesn't make you tensor. <code>❗Unlicensed</code>
+- [GitHub](https://github.com/FluxML/FastAI.jl) (👨‍💻 9 · 🔀 14 · ⏱️ 13.03.2021):
+
+	```
+	git clone https://github.com/FluxML/FastAI.jl
+	```
+</details>
+<details><summary>Show 53 hidden projects...</summary>
+
+- <b><a href="https://github.com/FluxML/Flux.jl">Flux.jl</a></b> (🥇19 ·  ⭐ 2.9K) - Relax! Flux is the ML library that doesn't make you tensor. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/denizyuret/Knet.jl">Knet.jl</a></b> (🥇19 ·  ⭐ 1.3K) - Ko University deep learning framework. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/alan-turing-institute/MLJBase.jl">MLJBase.jl</a></b> (🥇17 ·  ⭐ 55) - Core functionality for the MLJ machine learning framework. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/alan-turing-institute/MLJBase.jl">MLJBase.jl</a></b> (🥇17 ·  ⭐ 57) - Core functionality for the MLJ machine learning framework. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/SciML/DifferentialEquations.jl">DifferentialEquations.jl</a></b> (🥈16 ·  ⭐ 1.7K) - Multi-language suite for high-performance solvers of.. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/alan-turing-institute/MLJ.jl">MLJ.jl</a></b> (🥈16 ·  ⭐ 980) - A Julia machine learning framework. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/FluxML/Zygote.jl">Zygote.jl</a></b> (🥈16 ·  ⭐ 920) - Intimate Affection Auditor. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/SciML/ModelingToolkit.jl">ModelingToolkit.jl</a></b> (🥈16 ·  ⭐ 500) - A modeling framework for automatically parallelized.. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/FluxML/Zygote.jl">Zygote.jl</a></b> (🥈16 ·  ⭐ 930) - Intimate Affection Auditor. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/SciML/ModelingToolkit.jl">ModelingToolkit.jl</a></b> (🥈16 ·  ⭐ 530) - A modeling framework for automatically parallelized.. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/SciML/OrdinaryDiffEq.jl">OrdinaryDiffEq.jl</a></b> (🥈16 ·  ⭐ 190) - High performance differential equation solvers for.. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/SciML/NeuralPDE.jl">NeuralPDE.jl</a></b> (🥈15 ·  ⭐ 290) - Physics-Informed Neural Networks (PINN) and Deep BSDE.. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/SciML/NeuralPDE.jl">NeuralPDE.jl</a></b> (🥈15 ·  ⭐ 300) - Physics-Informed Neural Networks (PINN) and Deep BSDE.. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/JuliaStats/Distances.jl">Distances.jl</a></b> (🥈15 ·  ⭐ 250) - A Julia package for evaluating distances (metrics) between.. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/JuliaStats/Clustering.jl">Clustering.jl</a></b> (🥈15 ·  ⭐ 220) - A Julia package for data clustering. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/JuliaStats/Clustering.jl">Clustering.jl</a></b> (🥈15 ·  ⭐ 230) - A Julia package for data clustering. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/dmlc/XGBoost.jl">XGBoost.jl</a></b> (🥈15 ·  ⭐ 180) - XGBoost Julia Package. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/SciML/DiffEqBase.jl">DiffEqBase.jl</a></b> (🥈15 ·  ⭐ 100) - The lightweight Base library for shared types and.. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/malmaud/TensorFlow.jl">TensorFlow.jl</a></b> (🥈14 ·  ⭐ 820) - A Julia wrapper for TensorFlow. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/JuliaStats/MLBase.jl">MLBase.jl</a></b> (🥈14 ·  ⭐ 170 · 💀) - A set of functions to support the development of machine learning.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/JuliaGaussianProcesses/KernelFunctions.jl">KernelFunctions.jl</a></b> (🥈14 ·  ⭐ 95) - Julia package for kernel functions for machine learning. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/FluxML/NNlib.jl">NNlib.jl</a></b> (🥈14 ·  ⭐ 91) - Neural Network primitives with multiple backends. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/biaslab/ForneyLab.jl">ForneyLab.jl</a></b> (🥈14 ·  ⭐ 86) - Julia package for automatically generating Bayesian.. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/JuliaGaussianProcesses/KernelFunctions.jl">KernelFunctions.jl</a></b> (🥈14 ·  ⭐ 96) - Julia package for kernel functions for machine learning. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/FluxML/NNlib.jl">NNlib.jl</a></b> (🥈14 ·  ⭐ 92) - Neural Network primitives with multiple backends. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/biaslab/ForneyLab.jl">ForneyLab.jl</a></b> (🥈14 ·  ⭐ 87) - Julia package for automatically generating Bayesian.. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/dfdx/Yota.jl">Yota.jl</a></b> (🥈14 ·  ⭐ 83) - Reverse-mode automatic differentiation in Julia. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/dillondaudert/UMAP.jl">UMAP.jl</a></b> (🥈14 ·  ⭐ 73) - Uniform Manifold Approximation and Projection (UMAP) implementation in Julia. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/SciML/ReservoirComputing.jl">ReservoirComputing.jl</a></b> (🥈14 ·  ⭐ 58) - Reservoir computing utilities for scientific machine.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/IBM/TSML.jl">TSML.jl</a></b> (🥈14 ·  ⭐ 55) - A package for time series data processing, classification, clustering, and.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/lorenzoh/FluxTraining.jl">FluxTraining.jl</a></b> (🥈14 ·  ⭐ 32 · ➕) - A flexible neural net training library inspired by fast.ai. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/pluskid/Mocha.jl">Mocha.jl</a></b> (🥉13 ·  ⭐ 1.3K · 💀) - Deep Learning framework for Julia. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/QuantumBFS/Yao.jl">Yao.jl</a></b> (🥉13 ·  ⭐ 500) - Extensible, Efficient Quantum Algorithm Design for Humans. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/QuantumBFS/Yao.jl">Yao.jl</a></b> (🥉13 ·  ⭐ 510) - Extensible, Efficient Quantum Algorithm Design for Humans. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/cstjean/ScikitLearn.jl">ScikitLearn.jl</a></b> (🥉13 ·  ⭐ 420) - Julia implementation of the scikit-learn API.. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/willtebbutt/Stheno.jl">Stheno.jl</a></b> (🥉13 ·  ⭐ 230) - Probabilistic Programming with Gaussian processes in Julia. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/bensadeghi/DecisionTree.jl">DecisionTree.jl</a></b> (🥉13 ·  ⭐ 220) - Julia implementation of Decision Tree (CART) and.. <code>❗Unlicensed</code>
@@ -146,16 +173,20 @@ _General-purpose machine learning and deep learning frameworks._
 - <b><a href="https://github.com/wsmoses/Enzyme.jl">Enzyme.jl</a></b> (🥉13 ·  ⭐ 90) - Julia bindings for the Enzyme automatic differentiator. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/madsjulia/Mads.jl">Mads.jl</a></b> (🥉13 ·  ⭐ 71) - MADS: Model Analysis & Decision Support. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/bat/bat">bat</a></b> (🥉13 ·  ⭐ 55) - Bayesian analysis toolkit http://mpp.mpg.de/bat. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/JuliaStats/Loess.jl">Loess.jl</a></b> (🥉13 ·  ⭐ 45) - Local regression, so smooooth!. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/JuliaStats/Loess.jl">Loess.jl</a></b> (🥉13 ·  ⭐ 46) - Local regression, so smooooth!. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/aced-differentiate/AtomicGraphNets.jl">AtomicGraphNets.jl</a></b> (🥉13 ·  ⭐ 17 · ➕) - Atomic graph models for molecules and crystals in Julia. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/brian-j-smith/Mamba.jl">Mamba.jl</a></b> (🥉12 ·  ⭐ 230 · 💤) - Markov chain Monte Carlo (MCMC) for Bayesian analysis in.. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/SciML/DiffEqBayes.jl">DiffEqBayes.jl</a></b> (🥉12 ·  ⭐ 93 · ➕) - Extension functionality which uses Stan.jl,.. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/JuliaML/LossFunctions.jl">LossFunctions.jl</a></b> (🥉12 ·  ⭐ 89 · 💤) - Julia package of loss functions for machine learning. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/JuliaStats/NMF.jl">NMF.jl</a></b> (🥉12 ·  ⭐ 69) - A Julia package for non-negative matrix factorization. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/xiaodaigh/JLBoost.jl">JLBoost.jl</a></b> (🥉12 ·  ⭐ 61) - A 100%-Julia implementation of Gradient-Boosting Regression Tree.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/mschauer/CausalInference.jl">CausalInference.jl</a></b> (🥉12 ·  ⭐ 59 · ➕) - Causal inference, graphical models and structure.. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/SciML/DiffEqParamEstim.jl">DiffEqParamEstim.jl</a></b> (🥉12 ·  ⭐ 33 · ➕) - Easy scientific machine learning (SciML) parameter.. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/FluxML/Torch.jl">Torch.jl</a></b> (🥉11 ·  ⭐ 120) - Sensible extensions for exposing torch in Julia. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/FluxML/ONNX.jl">ONNX.jl</a></b> (🥉11 ·  ⭐ 75 · 💤) - Read ONNX graphs in Julia. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/FluxML/ONNX.jl">ONNX.jl</a></b> (🥉11 ·  ⭐ 76 · 💤) - Read ONNX graphs in Julia. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/wildart/ManifoldLearning.jl">ManifoldLearning.jl</a></b> (🥉11 ·  ⭐ 56) - A Julia package for manifold learning and nonlinear.. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/bhattlab/lathe">lathe</a></b> (🥉11 ·  ⭐ 39) - A tool for generating bacterial genomes from metagenomes with nanopore long.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/davidavdav/ROCAnalysis.jl">ROCAnalysis.jl</a></b> (🥉10 ·  ⭐ 22) - Receiver Operating Characteristics and functions for.. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/bhattlab/lathe">lathe</a></b> (🥉11 ·  ⭐ 40) - A tool for generating bacterial genomes from metagenomes with nanopore long.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/davidavdav/ROCAnalysis.jl">ROCAnalysis.jl</a></b> (🥉10 ·  ⭐ 23) - Receiver Operating Characteristics and functions for.. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/trthatcher/DiscriminantAnalysis.jl">DiscriminantAnalysis.jl</a></b> (🥉10 ·  ⭐ 7) - Regularized discriminant analysis in Julia. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/alan-turing-institute/TimeSeriesClassification.jl">TimeSeriesClassification.jl</a></b> (🥉8 ·  ⭐ 19) - Machine Learning with Time Series in Julia. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/JuliaML/OpenAIGym.jl">OpenAIGym.jl</a></b> (🥉7 ·  ⭐ 77 · 💤) - OpenAI's Gym binding for Julia. <code>❗Unlicensed</code>
@@ -170,7 +201,7 @@ _Libraries for processing, cleaning, manipulating, and analyzing text data as we
 
 <details><summary><b><a href="https://github.com/chengchingwen/Transformers.jl">Transformers.jl</a></b> (🥇16 ·  ⭐ 170) - Julia Implementation of Transformer models. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/chengchingwen/Transformers.jl) (👨‍💻 7 · 🔀 24 · 📋 15 - 26% open · ⏱️ 01.03.2021):
+- [GitHub](https://github.com/chengchingwen/Transformers.jl) (👨‍💻 7 · 🔀 24 · 📋 16 - 25% open · ⏱️ 01.03.2021):
 
 	```
 	git clone https://github.com/chengchingwen/Transformers.jl
@@ -220,11 +251,13 @@ _Libraries for loading, collecting, and extracting data from a variety of data s
 	git clone https://github.com/JuliaML/MLDatasets.jl
 	```
 </details>
-<details><summary>Show 4 hidden projects...</summary>
+<details><summary>Show 6 hidden projects...</summary>
 
-- <b><a href="https://github.com/JuliaData/DataFrames.jl">DataFrames.jl</a></b> (🥇18 ·  ⭐ 940) - In-memory tabular data in Julia. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/oxinabox/DataDeps.jl">DataDeps.jl</a></b> (🥉14 ·  ⭐ 88) - reproducible data setup for reproducible science. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/JuliaData/DataFrames.jl">DataFrames.jl</a></b> (🥇18 ·  ⭐ 950) - In-memory tabular data in Julia. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/oxinabox/DataDeps.jl">DataDeps.jl</a></b> (🥈14 ·  ⭐ 88) - reproducible data setup for reproducible science. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/JuliaML/MLDataUtils.jl">JuliaML/MLDataUtils.jl</a></b> (🥉12 ·  ⭐ 76) - Utility package for generating, loading, splitting,.. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/JuliaML/MLDataPattern.jl">MLDataPattern.jl</a></b> (🥉11 ·  ⭐ 40 · ➕) - Utility package for subsetting, resampling,.. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/lorenzoh/DataAugmentation.jl">DataAugmentation.jl</a></b> (🥉11 ·  ⭐ 4 · ➕) - Flexible data augmentation library for machine and deep.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/JuliaText/CorpusLoaders.jl">CorpusLoaders.jl</a></b> (🥉9 ·  ⭐ 20 · 💤) - A variety of loaders for various NLP corpora. <code>❗Unlicensed</code>
 </details>
 <br>
@@ -259,17 +292,42 @@ _Libraries for hyperparameter optimization, automl and neural architecture searc
 
 _Libraries providing capabilities for probabilistic programming/reasoning, bayesian inference, gaussian processes, or statistics._
 
-<details><summary>Show 9 hidden projects...</summary>
+<details><summary>Show 11 hidden projects...</summary>
 
 - <b><a href="https://github.com/JuliaStats/Distributions.jl">Distributions.jl</a></b> (🥇18 ·  ⭐ 650) - A Julia package for probability distributions and.. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/JuliaStats/GLM.jl">GLM.jl</a></b> (🥈15 ·  ⭐ 350) - Generalized linear models in Julia. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/JuliaStats/MultivariateStats.jl">MultivariateStats.jl</a></b> (🥈15 ·  ⭐ 220) - A Julia package for multivariate statistics and data.. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/STOR-i/GaussianProcesses.jl">GaussianProcesses.jl</a></b> (🥈15 ·  ⭐ 210) - A Julia package for Gaussian Processes. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/JuliaStats/HypothesisTests.jl">HypothesisTests.jl</a></b> (🥈15 ·  ⭐ 160) - Hypothesis tests for Julia. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/JuliaStats/KernelDensity.jl">KernelDensity.jl</a></b> (🥉13 ·  ⭐ 92) - Kernel density estimators for Julia. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/JuliaStats/GLM.jl">GLM.jl</a></b> (🥇15 ·  ⭐ 350) - Generalized linear models in Julia. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/JuliaStats/MultivariateStats.jl">MultivariateStats.jl</a></b> (🥇15 ·  ⭐ 220) - A Julia package for multivariate statistics and data.. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/STOR-i/GaussianProcesses.jl">GaussianProcesses.jl</a></b> (🥇15 ·  ⭐ 210) - A Julia package for Gaussian Processes. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/JuliaStats/HypothesisTests.jl">HypothesisTests.jl</a></b> (🥇15 ·  ⭐ 160) - Hypothesis tests for Julia. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/JuliaStats/KernelDensity.jl">KernelDensity.jl</a></b> (🥉13 ·  ⭐ 93) - Kernel density estimators for Julia. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/zenna/Omega.jl">Omega.jl</a></b> (🥉13 ·  ⭐ 83 · ➕) - Causal, Higher-Order, Probabilistic Programming. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/davidavdav/GaussianMixtures.jl">GaussianMixtures.jl</a></b> (🥉13 ·  ⭐ 57) - Large scale Gaussian Mixture Models. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/queryverse/ReadStat.jl">ReadStat.jl</a></b> (🥉12 ·  ⭐ 64 · 💤) - Read files from Stata, SAS, and SPSS. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/JuliaStats/GLMNet.jl">GLMNet.jl</a></b> (🥉11 ·  ⭐ 71) - Julia wrapper for fitting Lasso/ElasticNet GLM models using.. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/queryverse/ReadStat.jl">ReadStat.jl</a></b> (🥉12 ·  ⭐ 65 · 💤) - Read files from Stata, SAS, and SPSS. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/JuliaStats/GLMNet.jl">GLMNet.jl</a></b> (🥉11 ·  ⭐ 72) - Julia wrapper for fitting Lasso/ElasticNet GLM models using.. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/cscherrer/SossMLJ.jl">cscherrer/SossMLJ.jl</a></b> (🥉8 ·  ⭐ 7 · ➕) - SossMLJ makes it easy to build MLJ machines from user-.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+</details>
+<br>
+
+## Model Interpretability
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+_Libraries to visualize, explain, debug, evaluate, and interpret machine learning models._
+
+<details><summary>Show 1 hidden projects...</summary>
+
+- <b><a href="https://github.com/ashryaagr/Fairness.jl">Fairness.jl</a></b> (🥇12 ·  ⭐ 16 · ➕) - Julia Toolkit with fairness metrics and bias mitigation algorithms. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+</details>
+<br>
+
+## Others
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+<details><summary>Show 2 hidden projects...</summary>
+
+- <b><a href="https://github.com/JuliaReinforcementLearning/ReinforcementLearningZoo.jl">ReinforcementLearningZoo.jl</a></b> (🥇13 ·  ⭐ 38 · ➕) -  <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/JuliaReinforcementLearning/DistributedReinforcementLearning.jl">DistributedReinforcementLearning.jl</a></b> (🥉7 ·  ⭐ 3 · 🐣) - If it works, it works everywhere!. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 </details>
 
 ---
