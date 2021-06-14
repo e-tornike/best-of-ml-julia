@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-    <strong>🏆&nbsp; A ranked list of awesome machine learning Julia libraries. Updated weekly.</strong>
+    <strong>🏆&nbsp; A ranked list of awesome machine learning Julia libraries.</strong>
 </p>
 
 <p align="center">
