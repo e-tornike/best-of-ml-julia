@@ -358,3 +358,6 @@ projects:
   - name: MeasureTheory.jl
     github_id: cscherrer/MeasureTheory.jl
     category: "probabilistics"
+  - name: BeautifulAlgorithms.jl
+    github_id: mossr/BeautifulAlgorithms.jl
+    category: "ml-frameworks"
